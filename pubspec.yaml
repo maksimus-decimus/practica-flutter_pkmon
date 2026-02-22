@@ -1,0 +1,31 @@
+name: batalla_pokemon
+description: "Juego de batalla Pokémon con sistema de turnos avanzado - Práctica Flutter DAM"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets del juego
+  assets:
+    - assets/images/banderas/
+    - assets/images/soldados/
+    - assets/sounds/
+    - assets/sprites/sonido/
+    - assets/sprites/aleman/
+    - assets/sprites/fra/
